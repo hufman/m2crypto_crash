@@ -6,7 +6,7 @@ python:
 before_install:
   - sudo apt-get install swig
 install:
-  - pip install M2Crypto
+  - pip install git+https://github.com/martinpaljak/M2Crypto.git
 
 script: python crash.py
 
